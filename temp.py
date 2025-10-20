@@ -10,3 +10,7 @@ else:
 
 print("Temperature:", temp, "°C")
 print("Status:", status)
+
+#added farenheit conversion.
+temp_f = (temp_c * 9/5) + 32
+print("Temperature in Fahrenheit:", round(temp_f, 2), "°F")
